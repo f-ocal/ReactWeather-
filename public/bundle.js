@@ -26675,14 +26675,81 @@
 	    'div',
 	    null,
 	    React.createElement(
-	      'h3',
-	      null,
+	      'h1',
+	      { className: 'text-center' },
 	      ' About '
 	    ),
 	    React.createElement(
 	      'p',
 	      null,
-	      ' Welcome to the About page! '
+	      ' This is a weather application built on React. Submit a location and it will return the current temperature in that city. '
+	    ),
+	    React.createElement(
+	      'p',
+	      null,
+	      ' Here are some of the tools I used:'
+	    ),
+	    React.createElement(
+	      'table',
+	      null,
+	      React.createElement(
+	        'thead',
+	        null,
+	        React.createElement(
+	          'tr',
+	          null,
+	          React.createElement(
+	            'th',
+	            null,
+	            ' Name '
+	          ),
+	          React.createElement(
+	            'th',
+	            null,
+	            ' Description '
+	          )
+	        )
+	      ),
+	      React.createElement(
+	        'tbody',
+	        null,
+	        React.createElement(
+	          'tr',
+	          null,
+	          React.createElement(
+	            'td',
+	            null,
+	            React.createElement(
+	              'a',
+	              { href: 'https://facebook.github.io/react' },
+	              'React '
+	            )
+	          ),
+	          React.createElement(
+	            'td',
+	            null,
+	            'Frontend Javascript Framework'
+	          )
+	        ),
+	        React.createElement(
+	          'tr',
+	          null,
+	          React.createElement(
+	            'td',
+	            null,
+	            React.createElement(
+	              'a',
+	              { href: 'https://openweathermap.org' },
+	              'Open Weather Map '
+	            )
+	          ),
+	          React.createElement(
+	            'td',
+	            null,
+	            ' API to search for weather data by city name'
+	          )
+	        )
+	      )
 	    )
 	  );
 	};
